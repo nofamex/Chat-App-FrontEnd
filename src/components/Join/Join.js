@@ -9,7 +9,7 @@ function Join() {
   return (
     <div className="joinOuterContainer">
       <div className="joinInnerContainer">
-        <h1 className="Heading">Join</h1>
+        <h1 className="heading">JOIN</h1>
         <div>
           <input
             placeholder="Name"
@@ -31,7 +31,7 @@ function Join() {
           to={`/chat?name=${name}&room=${room}`}
         >
           <button className="button" type="submit">
-            Sign In
+            Join Room
           </button>
         </Link>
       </div>

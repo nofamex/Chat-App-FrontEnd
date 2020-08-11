@@ -1,0 +1,25 @@
+.onlineBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #2979ff;
+  border-radius: 4px 4px 0 0;
+  height: 65px;
+  width: 100%;
+}
+
+.onlineInnerContainer {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  color: white;
+  font-size: 15px;
+  width: 100%;
+}
+
+@media (max-width: 950px) {
+  .onlineBar {
+    height: 60px;
+  }
+}
